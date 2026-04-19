@@ -112,6 +112,23 @@ Second object calculates and moves to interception point.
 - Multi-object simulation
 - Collision avoidance
 
+##  My Role
+
+I designed and developed this entire Digital Twin system independently as a 5-stage engineering project.
+
+My responsibilities included:
+
+• System architecture design (layered architecture: Model, Service, Controller, UI)  
+• Full-stack development using Flutter and Firebase  
+• Real-time data synchronization using Firestore streams  
+• Implementation of spatial algorithms (Haversine distance, Bearing, Destination Point)  
+• Development of movement intelligence (speed and direction calculation)  
+• Design and implementation of predictive path algorithms (dead reckoning)  
+• Development of an intelligent interception system (time-based meeting point algorithm)  
+• UI/UX design and map-based visualization using OpenStreetMap  
+• Testing, debugging, and optimization of real-time system behavior  
+
+This project was fully built, tested, and documented by me as part of a progressive system design approach.
 ## Author
 
 
