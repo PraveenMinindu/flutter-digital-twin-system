@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "850276970590",
+    "project_id": "digital-twin-a0e51",
+    "storage_bucket": "digital-twin-a0e51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850276970590:android:4ed849ff6a4d8c1a8e04cf",
+        "android_client_info": {
+          "package_name": "com.example.live_sync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7aivjSGG4kuhzYRcHFVJIqmS_kV-ua0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850276970590:android:3fd39a679ca2233d8e04cf",
+        "android_client_info": {
+          "package_name": "com.example.static_maker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7aivjSGG4kuhzYRcHFVJIqmS_kV-ua0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+name: digital_twin_step_4_predictive_path
+description: "Step 4 - Predictive Path: dead-reckoning future position from live Firestore velocity."
+version: 4.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.3.0
+  cloud_firestore: ^5.2.1
+
+  # OpenStreetMap - no API key needed
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Date/time formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

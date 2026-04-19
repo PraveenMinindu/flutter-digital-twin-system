@@ -1,0 +1,33 @@
+name: digital_twin_step_3_velocity_engine
+description: "Step 3 – Velocity Engine: speed, heading & distance from live Firestore coordinates."
+version: 3.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.7.0
+  cloud_firestore: ^6.3.0
+
+  # OpenStreetMap (no API key needed)
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Date formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
